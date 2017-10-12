@@ -6,7 +6,7 @@ var source = {
 		user: 'root',
 		password: 'duke4566',
 		database: 'burgers_db'
-	},
+	}
 };
 
 var connection = mysql.createConnection(source.localhost);
